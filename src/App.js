@@ -11,21 +11,9 @@ function App() {
     {
         id:1,
         text: 'Meeting',
-        day:'Tomorrow',
+        day:'Saturday 11:00 PM',
         reminder:true,
     },    
-    {
-        id:2,
-        text: 'Pool',
-        day:'Today',
-        reminder:false,
-    },
-    {
-        id:3,
-        text: 'Sports',
-        day:'Tonight',
-        reminder:true,
-    }
 ])
 
 const addTask = (task) =>{
